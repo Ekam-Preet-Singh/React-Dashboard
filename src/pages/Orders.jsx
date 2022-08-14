@@ -1,21 +1,21 @@
-import React from "react";
 import {
-  GridComponent,
-  ColumnsDirective,
   ColumnDirective,
+  ColumnsDirective,
+  ContextMenu,
+  Edit,
+  ExcelExport,
+  Filter,
+  GridComponent,
+  Inject,
+  Page,
+  PdfExport,
   Resize,
   Sort,
-  ContextMenu,
-  Filter,
-  Page,
-  ExcelExport,
-  PdfExport,
-  Edit,
-  Inject,
 } from "@syncfusion/ej2-react-grids";
+import React from "react";
 
-import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
 import { Header } from "../components";
+import { contextMenuItems, ordersData, ordersGrid } from "../data/dummy";
 
 const Orders = () => {
   const editing = { allowDeleting: true, allowEditing: true };
@@ -53,5 +53,4 @@ const Orders = () => {
     </div>
   );
 };
-
 export default Orders;

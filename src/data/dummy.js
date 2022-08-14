@@ -1,36 +1,36 @@
 import React from "react";
 import {
-  AiOutlineCalendar,
-  AiOutlineShoppingCart,
   AiOutlineAreaChart,
   AiOutlineBarChart,
+  AiOutlineCalendar,
+  AiOutlineShoppingCart,
   AiOutlineStock,
 } from "react-icons/ai";
+import { BiColorFill } from "react-icons/bi";
 import {
-  FiShoppingBag,
-  FiEdit,
-  FiPieChart,
-  FiBarChart,
-  FiCreditCard,
-  FiStar,
-  FiShoppingCart,
-} from "react-icons/fi";
-import {
-  BsKanban,
   BsBarChart,
   BsBoxSeam,
-  BsCurrencyDollar,
-  BsShield,
   BsChatLeft,
+  BsCurrencyDollar,
+  BsKanban,
+  BsShield,
 } from "react-icons/bs";
-import { BiColorFill } from "react-icons/bi";
-import { IoMdContacts } from "react-icons/io";
-import { RiContactsLine, RiStockLine } from "react-icons/ri";
-import { MdOutlineSupervisorAccount } from "react-icons/md";
-import { HiOutlineRefresh } from "react-icons/hi";
-import { TiTick } from "react-icons/ti";
+import {
+  FiBarChart,
+  FiCreditCard,
+  FiEdit,
+  FiPieChart,
+  FiShoppingBag,
+  FiShoppingCart,
+  FiStar,
+} from "react-icons/fi";
 import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
+import { HiOutlineRefresh } from "react-icons/hi";
+import { IoMdContacts } from "react-icons/io";
+import { MdOutlineSupervisorAccount } from "react-icons/md";
+import { RiContactsLine, RiStockLine } from "react-icons/ri";
+import { TiTick } from "react-icons/ti";
 import avatar from "./avatar.jpg";
 import avatar2 from "./avatar2.jpg";
 import avatar3 from "./avatar3.png";
